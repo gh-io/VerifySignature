@@ -6,7 +6,9 @@ and none of them were easily forkable to be hosted independently.
     
 This implementation can accept get parameters, so it is linkable externally, and users could easily copy-paste one link to their counterparties to verify. 
 This should be useful for people who do OTC and regularly do proof-of-funds before the transaction.
-
+```bash
+npm run dev
+```
 Try it
 ------
 
@@ -34,12 +36,12 @@ Built with
 Build it yourself
 -----------------
 
-```bash
+```j
 npm i
 npm run export
 ```
 
-And it is ready to be hosted on the website (should be served from `/VerifySignature/` path, i.e. `http://127.0.0.1:3000/VerifySignature`).
+And it is ready to be hosted on the website (should be served from [`/VerifySignature/`] path, i.e. (`http://127.0.0.1:3000/VerifySignature`).
 Use `npm run dev` for development.
 
 License
