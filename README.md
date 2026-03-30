@@ -16,10 +16,7 @@ address:
 message:
 hello world!
 signature:
-"zuvawtArFlwyMUcoGFM//iqhafaLx
-9g|52m8ytYIcPFnWS/qdnKcK2LIT0nnx
-guU02dC/GwPbwKRvnfgvBfTA="*
-or try with get parameters: [verify]https://bluewallet.github.io/VerifySignature?a=1HvaxYmChk9nQUZx888a6hc7E8KnKP98ic&m=test&s=HCfgnEo8RNYTgcOXafAf11BQQ5LXSvlss0AbnezENbFJQzRl0dJRGOfYbOrOPkb2iPdj21Cty5G4paevOks%2FpJ4%3D
+or try with get parameters: [verify](https://bluewallet.github.io/VerifySignature?a=1HvaxYmChk9nQUZx888a6hc7E8KnKP98ic&m=test&s=HCfgnEo8RNYTgcOXafAf11BQQ5LXSvlss0AbnezENbFJQzRl0dJRGOfYbOrOPkb2iPdj21Cty5G4paevOks%2FpJ4%3D)
 * ...or short it https://bit.ly/3Gm85si
 
 Built with
@@ -37,7 +34,7 @@ Built with
 Build it yourself
 -----------------
 
-```javascript
+```bash
 npm i
 npm run export
 ```
